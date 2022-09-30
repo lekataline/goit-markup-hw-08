@@ -1,0 +1,29 @@
+.work {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.work__thumb {
+  position: relative;
+}
+
+.work__txt {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--light-txt-cl);
+  background-color: var(--desk-bg-cl);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}

@@ -1,0 +1,23 @@
+.address {
+  color: var(--ft-txt-cl);
+  font-style: normal;
+  line-height: calc(24 / 14);
+
+  & .link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  & .link:hover,
+  & .link:focus {
+    color: var(--accent-txt-cl);
+    cursor: pointer;
+  }
+
+  & .address__item + .address__item {
+    margin-top: 9px;
+  }
+}
+
+.map {
+  color: var(--light-txt-cl);
+}

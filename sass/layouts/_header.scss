@@ -1,0 +1,13 @@
+.header {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 100;
+
+  border-bottom: 1px solid var(--line-cl);
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}

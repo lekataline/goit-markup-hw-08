@@ -1,0 +1,92 @@
+.subscription {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.subscription__title {
+  margin-bottom: 20px;
+  align-items: baseline;
+  align-content: center;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--light-txt-cl);
+}
+
+.subscription__form {
+  display: flex;
+  gap: 12px;
+}
+
+.subscription__input {
+  height: 50px;
+  width: 358px;
+
+  padding-top: 15px;
+  padding-right: 16px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+
+  color: var(--light-txt-cl);
+  background: var(--accent-bg-cl);
+  border: 1px solid var(--subscr-input);
+  filter: drop-shadow(var(--subscr-shadow));
+  border-radius: 4px;
+
+  outline: none;
+}
+
+.subscription__btn {
+  display: inline-flex;
+  padding: 10px 28px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 200px;
+
+  color: var(--light-txt-cl);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  border: 1px solid transparent;
+  /* bg */
+  background: var(--accent-bt-cl);
+  box-shadow: var(--btn-shadow);
+  border-radius: 4px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--active-bt-cl);
+    cursor: pointer;
+  }
+}
+
+.subscription__icon {
+  align-items: center;
+  margin-left: 10px;
+
+  padding: 0;
+  fill: var(--light-bt-cl);
+}
+
+input[name='mail']::placeholder {
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.03em;
+
+  color: var(--phft-txt-cl);
+}

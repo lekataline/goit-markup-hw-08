@@ -1,0 +1,39 @@
+.portfolio__filters {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+
+  & .portfolio__item + .portfolio__item {
+    margin-left: 8px;
+  }
+}
+
+.portfolio__btn {
+  display: inline-block;
+  padding: 6px 22px;
+  min-width: 73px;
+
+  color: var(--heading-txt-cl);
+  background: var(--section-bg-cl);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--light-txt-cl);
+    background: var(--accent-bt-cl);
+    box-shadow: var(--portfolio-btn);
+  }
+}

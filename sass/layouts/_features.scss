@@ -1,0 +1,29 @@
+.features {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.features__icon-box {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--section-bg-cl);
+}
+
+.features__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  color: var(--heading-txt-cl);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+}

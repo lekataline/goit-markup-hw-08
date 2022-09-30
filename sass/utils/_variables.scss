@@ -1,0 +1,51 @@
+:root {
+  // Fonts
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  // Text colors
+  --main-txt-cl: #757575;
+  --heading-txt-cl: #212121;
+  --dark-txt-cl: #000000;
+  --light-txt-cl: #ffffff;
+  --accent-txt-cl: #2196f3;
+  --active-txt-cl: #188ce8;
+  --ft-txt-cl: rgba(255, 255, 255, 0.6);
+  --ph-txt-cl: rgba(117, 117, 117, 0.5);
+  --phft-txt-cl: rgba(255, 255, 255, 0.6);
+
+  //   Background colors
+  --bg-cl: #ffffff;
+  --section-bg-cl: #f5f4fa;
+  --accent-bg-cl: #2f303a;
+  --card-bg-cl: rgba(33, 150, 243, 0.9);
+  --desk-bg-cl: rgba(47, 48, 58, 0.8);
+  --grey-bg-cl: rgba(255, 255, 255, 0.1);
+  --modal-bg-cl: rgba(0, 0, 0, 0.2);
+
+  //   Button colors
+  --accent-bt-cl: #2196f3;
+  --active-bt-cl: #188ce8;
+  --light-bt-cl: #ffffff;
+
+  //   Line colors
+  --line-cl: #ececec;
+  --accent-border: #2196f3;
+  --border-ln-cl: #eeeeee;
+  --border-card-cl: #afb1b8;
+  --subscr-input: rgba(255, 255, 255, 0.3);
+  --modal-btn: rgba(0, 0, 0, 0.1);
+  --register-border: 1px solid rgba(33, 33, 33, 0.2);
+
+  //   Shadow colors
+  --btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --team-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  --portfolio-btn: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  --gallery-item: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  --subscr-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --modal-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,13 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 15px;
+
+  color: var(--light-txt-cl);
+  background-color: var(--accent-bg-cl);
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
