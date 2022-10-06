@@ -136,35 +136,35 @@ img {
   background-color: var(--accent-bg-cl);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/header_sm-@1x.png);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/header_sm-@1x.png);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/hero/header_sm-@1x.png);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero/header_sm-@1x.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/hero/header_sm-@2x.png);
+    background-image: url(../../images/hero/hero_sm-@2x.png);
   }
 }
 @media screen and (min-width: 481px) {
   .hero {
-    background-image: url(../images/hero/header_md-@1x.png);
+    background-image: url(../../images/hero/hero_md-@1x.png);
   }
 }
 @media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/hero/header_md-@2x.png);
+    background-image: url(../../images/hero/hero_md-@2x.png);
   }
 }
 @media screen and (min-width: 769px) {
   .hero {
-    background-image: url(../images/hero/header_lg-@1x.png);
+    background-image: url(../../images/hero/hero_lg-@1x.png);
   }
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/hero/header_lg-@2x.png);
+    background-image: url(../../images/hero/hero_lg-@2x.png);
   }
 }
 
