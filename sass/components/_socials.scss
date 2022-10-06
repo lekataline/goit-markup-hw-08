@@ -35,11 +35,23 @@
 
 .socials__footer {
   display: flex;
-  justify-content: start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 
-  margin-right: 93px;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 89px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    align-items: flex-start;
+    justify-content: start;
+
+    margin-right: 93px;
+    margin-bottom: 0;
+  }
 }
 
 .socials__title {

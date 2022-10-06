@@ -29,6 +29,7 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .register__label {
@@ -39,7 +40,7 @@
 }
 
 .register__input {
-  width: 448px;
+  width: 370px;
   height: 40px;
   left: 576px;
   top: 314px;
@@ -54,6 +55,14 @@
   outline: transparent;
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 768px) {
+    width: 370px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 448px;
+  }
 
   &:hover,
   &:focus {
@@ -75,7 +84,7 @@ textarea {
 
 .register__message {
   display: block;
-  width: 448px;
+  width: 370px;
   height: 120px;
 
   padding-top: 12px;
@@ -89,6 +98,18 @@ textarea {
   outline: transparent;
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (max-width: 480px) {
+    max-width: 370px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 370px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 448px;
+  }
 
   &:hover,
   &:focus {
@@ -113,7 +134,7 @@ textarea {
 
 .register-checkbox {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
 
@@ -150,8 +171,17 @@ textarea {
 .register-checkbox__label {
   display: block;
 
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: 0.03em;
+
   color: var(--main-txt-cl);
   user-select: none;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+  }
 }
 
 .register-checkbox__link {

@@ -29,12 +29,16 @@
   padding-bottom: 40px;
   padding-left: 40px;
 
-  width: 528px;
+  max-width: 450px;
   // height: 581px;
 
   background-color: var(--bg-cl);
   box-shadow: var(--modal-shadow);
   border-radius: 4px;
+
+  @media screen and (min-width: 1200px) {
+    max-width: 528px;
+  }
 }
 
 .modal__btn {
@@ -52,7 +56,6 @@
   background-color: var(--bg-cl);
   border: 1px solid var(--modal-btn);
   border-radius: 50%;
-
   cursor: pointer;
 
   &:hover,

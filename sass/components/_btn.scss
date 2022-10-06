@@ -1,6 +1,6 @@
 .hero__btn {
   display: inline-block;
-  padding: 9px 31px;
+  padding: 9px 23px;
   margin-left: auto;
   margin-right: auto;
   min-width: 214px;
@@ -27,6 +27,10 @@
   &:focus {
     background-color: var(--active-bt-cl);
     cursor: pointer;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 9px 31px;
   }
 }
 
