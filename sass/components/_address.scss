@@ -1,12 +1,12 @@
 .address {
-  margin-bottom: 60px;
+  // margin-bottom: 60px;
 
   color: var(--ft-txt-cl);
   font-style: normal;
   line-height: calc(24 / 14);
 
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 0;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 60px;
   }
 
   & .link {

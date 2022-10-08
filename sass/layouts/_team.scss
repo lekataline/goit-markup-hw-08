@@ -1,7 +1,7 @@
 .team {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+  // display: flex;
+  // flex-wrap: wrap;
+  // gap: 30px;
 
   justify-content: center;
 
@@ -9,6 +9,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+
+    justify-content: center;
   }
 }
 
@@ -19,13 +21,19 @@
   box-shadow: var(--team-shadow);
   border-radius: 0px 0px 4px 4px;
 
-  @media screen and (max-width: 769px) {
-    max-width: 450px;
+  // @media screen and (max-width: 769px) {
+  //   max-width: 450px;
+  // }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0px;
   }
 
-  @media screen and (max-width: 1199px) {
-    max-width: 354px;
-  }
+  // @media screen and (max-width: 1199px) {
+  //   max-width: 354px;
+  // }
+
+
 }
 
 .team__card {

@@ -37,7 +37,6 @@
             <a href="" class="nav__link">Контакти</a>
           </li>
         </ul>
-      </nav>
 
       <ul class="contact list">
         <li class="contact__item">
@@ -55,6 +54,7 @@
             +38 096 111 11 11</a>
         </li>
       </ul>
+    </nav>
 
       <button class="menu-btn js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
         <svg width="40" height="40">
@@ -93,12 +93,28 @@
 
         <ul class="gallery list">
           <li class="gallery__item">
-            <a href="" class="gallery__link link">
+            <a href="" class="gallery__link gallery__link--up link">
+
               <article class="gallery__product">
 
                 <div class="gallery__card">
-                  <img class="gallery__img" src="./images/portfolio/teсhnokryak.jpg" alt="Технокряк" width="370"
-                    height="294" />
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="
+                        ./images/portfolio/img-1_lg-@1x.png 1x,
+                        ./images/portfolio/img-1_lg-@2x.png 2x
+                      " type="image/png" />
+
+                    <source media="(min-width: 768px)" srcset="
+                        ./images/portfolio/img-1_md-@1x.png 1x,
+                        ./images/portfolio/img-1_md-@2x.png 2x
+                      " type="image/png" />
+                    <source media="(max-width: 767px)" srcset="
+                        ./images/portfolio/img-1_sm-@1x.png 1x,
+                        ./images/portfolio/img-1_sm-@2x.png 2x
+                      " type="image/png" />
+                    <img class="gallery__img" src="./images/portfolio/img-1_sm-@1x.png" alt="Технокряк" />
+                  </picture>
+
 
                   <div class="gallery__overlay">
                     <p>
@@ -108,7 +124,7 @@
                   </div>
                 </div>
 
-                <div class="gallery__card-desc">
+                <div class="gallery__card-desc gallery__card-desc--down">
                   <h2 class="gallery__title">Технокряк</h2>
                   <p class="gallery__spec">Веб-сайт</p>
                 </div>
@@ -118,11 +134,29 @@
           </li>
           <li class="gallery__item">
             <a href="" class="gallery__link link">
+
               <article class="gallery__product">
 
                 <div class="gallery__card">
-                  <img class="gallery__img" src="./images/portfolio/new-orlean-vs-golden-star.jpg"
-                    alt="Постер New Orlean vs Golden Star" width="370" height="294" />
+
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="
+                        ./images/portfolio/img-2_lg-@1x.png 1x,
+                        ./images/portfolio/img-2_lg-@2x.png 2x
+                      " type="image/png" />
+
+                    <source media="(min-width: 768px)" srcset="
+                        ./images/portfolio/img-2_md-@1x.png 1x,
+                        ./images/portfolio/img-2_md-@2x.png 2x
+                      " type="image/png" />
+                    <source media="(max-width: 767px)" srcset="
+                        ./images/portfolio/img-2_sm-@1x.png 1x,
+                        ./images/portfolio/img-2_sm-@2x.png 2x
+                      " type="image/png" />
+                    <img class="gallery__img" src="./images/portfolio/img-2_sm-@1x.png"
+                      alt="Постер New Orlean vs Golden Star" />
+                  </picture>
+
                   <div class="gallery__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -142,11 +176,28 @@
           </li>
           <li class="gallery__item">
             <a href="" class="gallery__link link">
+
               <article class="gallery__product">
 
                 <div class="gallery__card">
-                  <img class="gallery__img" src="./images/portfolio/seafood.jpg" alt="Ресторан Seafood" width="370"
-                    height="294" />
+
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="
+                        ./images/portfolio/img-3_lg-@1x.png 1x,
+                        ./images/portfolio/img-3_lg-@2x.png 2x
+                      " type="image/png" />
+
+                    <source media="(min-width: 768px)" srcset="
+                        ./images/portfolio/img-3_md-@1x.png 1x,
+                        ./images/portfolio/img-3_md-@2x.png 2x
+                      " type="image/png" />
+                    <source media="(max-width: 767px)" srcset="
+                        ./images/portfolio/img-3_sm-@1x.png 1x,
+                        ./images/portfolio/img-3_sm-@2x.png 2x
+                      " type="image/png" />
+                    <img class="gallery__img" src="./images/portfolio/img-3_sm-@1x.png" alt="Ресторан Seafood" />
+                  </picture>
+
                   <div class="gallery__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -164,11 +215,28 @@
           </li>
           <li class="gallery__item">
             <a href="" class="gallery__link link">
+
               <article class="gallery__product">
 
                 <div class="gallery__card">
-                  <img class="gallery__img" src="./images/portfolio/prime.jpg" alt="Проєкт Prime" width="370"
-                    height="294" />
+
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="
+                        ./images/portfolio/img-4_lg-@1x.png 1x,
+                        ./images/portfolio/img-4_lg-@2x.png 2x
+                      " type="image/png" />
+
+                    <source media="(min-width: 768px)" srcset="
+                        ./images/portfolio/img-4_md-@1x.png 1x,
+                        ./images/portfolio/img-4_md-@2x.png 2x
+                      " type="image/png" />
+                    <source media="(max-width: 767px)" srcset="
+                        ./images/portfolio/img-4_sm-@1x.png 1x,
+                        ./images/portfolio/img-4_sm-@2x.png 2x
+                      " type="image/png" />
+                    <img class="gallery__img" src="./images/portfolio/img-4_sm-@1x.png" alt="Проєкт Prime" />
+                  </picture>
+
                   <div class="gallery__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -185,11 +253,28 @@
           </li>
           <li class="gallery__item">
             <a href="" class="gallery__link link">
+
               <article class="gallery__product">
 
                 <div class="gallery__card">
-                  <img class="gallery__img" src="./images/portfolio/boxes.jpg" alt="Проєкт Boxes" width="370"
-                    height="294" />
+
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="
+                        ./images/portfolio/img-5_lg-@1x.png 1x,
+                        ./images/portfolio/img-5_lg-@2x.png 2x
+                      " type="image/png" />
+
+                    <source media="(min-width: 768px)" srcset="
+                        ./images/portfolio/img-5_md-@1x.png 1x,
+                        ./images/portfolio/img-5_md-@2x.png 2x
+                      " type="image/png" />
+                    <source media="(max-width: 767px)" srcset="
+                        ./images/portfolio/img-5_sm-@1x.png 1x,
+                        ./images/portfolio/img-5_sm-@2x.png 2x
+                      " type="image/png" />
+                    <img class="gallery__img" src="./images/portfolio/img-5_sm-@1x.png" alt="Проєкт Boxes" />
+                  </picture>
+
                   <div class="gallery__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -207,11 +292,30 @@
           </li>
           <li class="gallery__item">
             <a href="" class="gallery__link link">
+
               <article class="gallery__product">
 
                 <div class="gallery__card">
-                  <img class="gallery__img" src="./images/portfolio/inspiration-has-no-borders.jpg"
-                    alt="Inspiration has no Borders" width="370" height="294" />
+
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="
+                        ./images/portfolio/img-6_lg-@1x.png 1x,
+                        ./images/portfolio/img-6_lg-@2x.png 2x
+                      " type="image/png" />
+
+                    <source media="(min-width: 768px)" srcset="
+                        ./images/portfolio/img-6_md-@1x.png 1x,
+                        ./images/portfolio/img-6_md-@2x.png 2x
+                      " type="image/png" />
+                    <source media="(max-width: 767px)" srcset="
+                        ./images/portfolio/img-6_sm-@1x.png 1x,
+                        ./images/portfolio/img-6_sm-@2x.png 2x
+                      " type="image/png" />
+                    <img class="gallery__img" src="./images/portfolio/img-6_sm-@1x.png"
+                      alt="Inspiration has no Borders" />
+                  </picture>
+
+
                   <div class="gallery__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -228,11 +332,28 @@
           </li>
           <li class="gallery__item">
             <a href="" class="gallery__link link">
+
               <article class="gallery__product">
 
                 <div class="gallery__card">
-                  <img class="gallery__img" src="./images/portfolio/limited-edition.jpg" alt="Видання Limited Edition"
-                    width="370" height="294" />
+
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="
+                        ./images/portfolio/img-7_lg-@1x.png 1x,
+                        ./images/portfolio/img-7_lg-@2x.png 2x
+                      " type="image/png" />
+
+                    <source media="(min-width: 768px)" srcset="
+                        ./images/portfolio/img-7_md-@1x.png 1x,
+                        ./images/portfolio/img-7_md-@2x.png 2x
+                      " type="image/png" />
+                    <source media="(max-width: 767px)" srcset="
+                        ./images/portfolio/img-7_sm-@1x.png 1x,
+                        ./images/portfolio/img-7_sm-@2x.png 2x
+                      " type="image/png" />
+                    <img class="gallery__img" src="./images/portfolio/img-7_sm-@1x.png" alt="Видання Limited Edition" />
+                  </picture>
+
                   <div class="gallery__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -251,11 +372,27 @@
           </li>
           <li class="gallery__item">
             <a href="" class="gallery__link link">
+
               <article class="gallery__product">
 
                 <div class="gallery__card">
-                  <img class="gallery__img" src="./images/portfolio/lab.jpg" alt="Проєкт LAB" width="370"
-                    height="294" />
+
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="
+                        ./images/portfolio/img-8_lg-@1x.png 1x,
+                        ./images/portfolio/img-8_lg-@2x.png 2x
+                      " type="image/png" />
+
+                    <source media="(min-width: 768px)" srcset="
+                        ./images/portfolio/img-8_md-@1x.png 1x,
+                        ./images/portfolio/img-8_md-@2x.png 2x
+                      " type="image/png" />
+                    <source media="(max-width: 767px)" srcset="
+                        ./images/portfolio/img-8_sm-@1x.png 1x,
+                        ./images/portfolio/img-8_sm-@2x.png 2x
+                      " type="image/png" />
+                    <img class="gallery__img" src="./images/portfolio/img-8_sm-@1x.png" alt="Проєкт LAB" />
+                  </picture>
 
                   <div class="gallery__overlay">
                     <p>
@@ -263,9 +400,7 @@
                       відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
-
                 </div>
-
                 <div class="gallery__card-desc">
                   <h2 class="gallery__title">Проєкт <span lang="en">LAB</span></h2>
                   <p class="gallery__spec">Маркетинг</p>
@@ -276,11 +411,27 @@
           </li>
           <li class="gallery__item">
             <a href="" class="gallery__link link">
+
               <article class="gallery__product">
 
                 <div class="gallery__card">
-                  <img class="gallery__img" src="./images/portfolio/growing-business.jpg" alt="Growing Business"
-                    width="370" height="294" />
+
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="
+                        ./images/portfolio/img-9_lg-@1x.png 1x,
+                        ./images/portfolio/img-9_lg-@2x.png 2x
+                      " type="image/png" />
+
+                    <source media="(min-width: 768px)" srcset="
+                        ./images/portfolio/img-9_md-@1x.png 1x,
+                        ./images/portfolio/img-9_md-@2x.png 2x
+                      " type="image/png" />
+                    <source media="(max-width: 767px)" srcset="
+                        ./images/portfolio/img-9_sm-@1x.png 1x,
+                        ./images/portfolio/img-9_sm-@2x.png 2x
+                      " type="image/png" />
+                    <img class="gallery__img" src="./images/portfolio/img-9_sm-@1x.png" alt="Growing Business" />
+                  </picture>
 
                   <div class="gallery__overlay">
                     <p>
@@ -288,14 +439,12 @@
                       відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
-
                 </div>
 
                 <div class="gallery__card-desc">
                   <h2 class="gallery__title" lang="en">Growing Business</h2>
                   <p class="gallery__spec">Додаток</p>
                 </div>
-
               </article>
             </a>
           </li>
