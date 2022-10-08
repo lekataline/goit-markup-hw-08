@@ -356,11 +356,6 @@ img {
   text-transform: uppercase;
 }
 
-.team {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
 @media screen and (min-width: 768px) {
   .team {
     display: -webkit-box;
@@ -385,6 +380,12 @@ img {
 @media screen and (min-width: 768px) {
   .team__item {
     margin-bottom: 0px;
+    width: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__item {
+    width: calc((100% - 90px) / 4);
   }
 }
 
@@ -1536,9 +1537,7 @@ input[name=mail]::placeholder {
 }
 
 .register__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 .register__item:not(:last-child) {
   margin-bottom: 10px;
@@ -1572,7 +1571,6 @@ input[name=mail]::placeholder {
 }
 
 .register__input {
-  max-width: 370px;
   height: 40px;
   left: 576px;
   top: 314px;
@@ -1605,7 +1603,6 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  resize: vertical;
 }
 textarea::-webkit-input-placeholder {
   font-size: 12px;

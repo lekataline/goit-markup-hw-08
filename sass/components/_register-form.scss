@@ -9,17 +9,10 @@
   letter-spacing: 0.03em;
 
   color: var(--heading-txt-cl);
-
-  // @media screen and (max-width: 1199px) {
-  //   line-height: calc(30 / 20);
-  // }
-  // @media screen and (min-width: 1200px) {
-  //   line-height: calc(23 / 20);
-  // }
 }
 
 .register__item {
-  display: flex;
+  display: block;
 
   &:not(:last-child) {
     margin-bottom: 10px;
@@ -35,14 +28,9 @@
 .register__field {
   position: relative;
   display: flex;
-  // flex-wrap: wrap;
-flex-direction: column;
-  justify-content: flex-start;
-  // margin-bottom: 4px;
-  // font-size: 12px;
-  // line-height: calc(14 / 12);
-  // letter-spacing: 0.01em;
 
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .register__label {
@@ -53,7 +41,7 @@ flex-direction: column;
 }
 
 .register__input {
-  max-width: 370px;
+  // max-width: 370px;
   height: 40px;
   left: 576px;
   top: 314px;
@@ -85,7 +73,7 @@ flex-direction: column;
 
 textarea {
   flex-direction: column;
-  resize: vertical;
+  // resize: vertical;
 
   &::placeholder {
     font-size: 12px;
